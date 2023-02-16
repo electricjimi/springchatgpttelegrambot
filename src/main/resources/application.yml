@@ -1,0 +1,14 @@
+bot:
+  name: <insert your bot name here>
+  token: <insert you bot token here>
+  text:
+    model: text-davinci-003
+    temperature: 0.7
+    max-tokens: 500
+    top-p: 1
+    frequency-penalty: 0
+    presence-penalty: 0
+api:
+  token: Bearer <insert you openai token here>
+  url:
+    completions: https://api.openai.com/v1/completions
